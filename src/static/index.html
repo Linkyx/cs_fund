@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Linux兴趣小组</title>
+  <meta charset = "utf-8">
+  <meta name="description" content="Xiyou Linux Group Collebration System Of Fund Management">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="./compoents/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/assets.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body class="container-fluid ">
+  <header>
+    <nav class="row head">
+      <div class="col-md-2 nav-left">
+        <a href="#">
+          <i class="glyphicon glyphicon-user"></i>
+          西邮Linux
+        </a>
+      </div>
+      <form class="col-md-8 nav-middle">
+        <div class="search col-md-6">
+          <i class="glyphicon glyphicon-search"></i>
+          <input type="text" placeholder="搜索用户、动态、应用等全站内容...">
+        </div>
+        <div class="action col-md-6">
+          <i class="glyphicon glyphicon-comment"></i>
+          <input type="text" placeholder="发表一条新动态，话题前后用#隔开，图片URL前后用$隔开...">
+        </div>
+      </form>
+      <div class="col-md-2 nav-right">
+        <ul class="user">
+          <a data-target= "#" data-toggle="dropdown" class="user-drop" aria-haspopup="true" aria-expanded="false">
+            <img src="https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=675045695,705721405&fm=96&s=3AB86E871E34278011BD74F503000068" alt="user_img">
+            陈志诚
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu animated fadeInRight">
+            <li>
+                <a href="http://cs.xiyoulinux.org/profile.php?id=1013">个人中心</a>
+            </li>
+            <li>
+                <a href="http://cs.xiyoulinux.org/mail_all.php">站内信</a>
+            </li>
+
+            <li>
+                <a id="btn-logout" data-toggle="ajaxModal">退出</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="row content">
+    <div class="content-left col-md-2">
+      <ul class="list-left">
+        <li>
+          <a href="">
+            <i class="glyphicon glyphicon-piggy-bank"></i>
+            小组基金</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content-middle col-md-8">
+      <div class="fund">
+        <div class="count">
+          <span id="money">账户余额:100000</span>
+        </div>
+        <div class="btn-fund">
+          <button type="button" class="btn  income">收入</button>
+          <button type="button" class="btn payout">支出</button>
+        </div>
+        <div class="payinfo">
+          <ul>
+            <li>支出信息用于聚花费30元</li>
+            <li>支出信息用于聚花费30元</li>
+            <li>支出信息用于聚花费30元</li>
+            <li>支出信息用于聚花费30元</li>
+            <li>支出信息用于聚花费30元</li>
+            <li>支出信息用于聚花费30元</li>
+            <li>支出信息用于聚花费30元</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content-right col-md-2">
+      <ul class="user-list">
+        <li id="user-list-title">用户列表</li>
+        <ul>
+          <li>
+            <span class="user-list-img"><img src="http://gravatar.duoshuo.com/avatar/2fc17a2137c86913c0d2d70747239486?d=mm&amp;s=150" alt="..."></span>
+            <div class="user-list-name"><a href="">陈志诚</a></div>
+            <div class="user-list-remark">西安</div>
+          </li>
+          <li>
+            <span class="user-list-img"><img src="http://gravatar.duoshuo.com/avatar/2fc17a2137c86913c0d2d70747239486?d=mm&amp;s=150" alt="..."></span>
+            <div class="user-list-name"><a href="">陈志诚</a></div>
+            <div class="user-list-remark">西安</div>
+          </li>
+          <li>
+            <span class="user-list-img"><img src="http://gravatar.duoshuo.com/avatar/2fc17a2137c86913c0d2d70747239486?d=mm&amp;s=150" alt="..."></span>
+            <div class="user-list-name"><a href="">陈志诚</a></div>
+            <div class="user-list-remark">西安</div>
+          </li>
+          <li>
+            <span class="user-list-img"><img src="http://gravatar.duoshuo.com/avatar/2fc17a2137c86913c0d2d70747239486?d=mm&amp;s=150" alt="..."></span>
+            <div class="user-list-name"><a href="">陈志诚</a></div>
+            <div class="user-list-remark">西安</div>
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="compoents/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="compoents/bootstrap/js/dropdown.js"></script>
+  <script type="text/javascript">
+    var btnPayout = $(".payout");
+    var btnIncome = $(".income");
+    btnIncome.click(function() {
+      $(this).css("color","#fff");
+    });
+    btnPayout.click(function () {
+      $(this).css("color","#fff");
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

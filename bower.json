@@ -1,0 +1,32 @@
+{
+  "name": "fund",
+  "description": "小组基金",
+  "main": "index.js",
+  "authors": [
+    "LInky"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "基金"
+  ],
+  "homepage": "https://github.com/Linkyx/cs_fund",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8"
+  }
+}

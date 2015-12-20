@@ -1,0 +1,195 @@
+.head{
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.nav-left{
+  background: #4cb6cb;
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  padding-left: 0;
+  padding-right:0;
+}
+.nav-left i{
+  padding-right: 20px;
+}
+.nav-left a{
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+.nav-left a:hover,.nav-left a:visited {
+  color: #fff;
+}
+.nav-left a:link,.nav-left a:active{
+  color: #fff;
+}
+.nav-middle{
+  text-align: left;
+  padding-left: 0;
+  padding-right:0;
+}
+.nav-middle input{
+ margin-left: 10px;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  font-size: 10px;
+}
+.search input{
+  width:250px;
+}
+.action input{
+  width: 250px;
+}
+.user-drop:hover{
+  cursor: pointer;
+  background:rgba(50,50,50,0.15);
+}
+#btn-logout{
+   cursor: pointer;
+}
+.nav-right{
+  float:left;
+  padding-left: 0;
+  padding-right:0;
+}
+.user img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.user a{
+  display:inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
+
+/*中间正文
+*/
+.content{
+  text-align: center;
+}
+.content a{
+  text-decoration: none;
+}
+.content-left{
+  background: #232c32;
+  height: 600px;
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+  color: #8ca1af;
+  padding-left: 0;
+  padding-right:0;
+}
+.content-middle{
+  float: left;
+}
+.content-right{
+  float: left;
+  background:rgba(50,50,50,0.05);
+  height: 600px;
+}
+.list-left li{
+  margin: 20px 0 20px 0;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+}
+.list-left li a{
+  color: #8ca1af;
+  display: inline-block;
+  width: 100%;
+}
+.list-left li a:hover{
+  background: #2c3942;
+  color: #eee;
+}
+.list-left li i{
+  margin-left: -30px;
+  padding-right: 30px;
+}
+.user-list{
+  text-align: left;
+}
+.user-list a{
+  color:#000;
+}
+#user-list-title{
+  font-size: 20px;
+  line-height: 50px;
+}
+.user-list li{
+  margin: 10px 0 10px 10px;
+  height:50px;
+}
+.user-list-img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  float: left;
+}
+.user-list-remark{
+  font-size: 10px;
+  color: #939aa0;
+}
+.fund{
+  margin-top: 50px;
+}
+.content-middle{
+  padding-left:0;
+  padding-right: 0;
+
+}
+#money{
+  font-size:30px;
+}
+.btn-fund{
+  margin-top: 50px;
+}
+.income{
+  margin-left: -50px;
+  margin-right: 50px;
+  width: 100px;
+  background:  #5cb85c;
+  border: none;
+  color: #fff;
+}
+.payout{
+  margin-left: 50px;
+  margin-right: -50px;
+  width: 100px;
+  background: #f05050;
+  border: none;
+  color: #fff;
+}
+.income:hover{
+  background: #1ab667;
+  color: #fff;
+}
+.payout:hover{
+  background: #ee3939;
+  color: #fff;
+}
+.payinfo{
+  text-align: left;
+  margin: 50px 20px 0 20px;
+}
+.payinfo li{
+  text-indent: 20px;
+  height: 50px;
+  line-height: 50px;
+  background: rgba(50,50,50,0.05);
+  border-bottom: 1px solid rgba(50,50,50,0.05);
+}
+
+
+
+
+
