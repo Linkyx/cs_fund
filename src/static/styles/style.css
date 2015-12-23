@@ -157,25 +157,13 @@
   margin-left: -50px;
   margin-right: 50px;
   width: 100px;
-  background:  #5cb85c;
   border: none;
-  color: #fff;
 }
 .payout{
   margin-left: 50px;
   margin-right: -50px;
   width: 100px;
-  background: #f05050;
   border: none;
-  color: #fff;
-}
-.income:hover{
-  background: #1ab667;
-  color: #fff;
-}
-.payout:hover{
-  background: #ee3939;
-  color: #fff;
 }
 .payinfo{
   text-align: left;
@@ -188,8 +176,12 @@
   background: rgba(50,50,50,0.05);
   border-bottom: 1px solid rgba(50,50,50,0.05);
 }
-
-
+.payinfo a{
+  color: #000;
+}
+.payinfo a:hover,.payinfo a:link{
+  color: #666;
+}
 
 
 
